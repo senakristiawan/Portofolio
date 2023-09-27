@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sena Kristiawan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span class="navfirstName">Sena <span class="navlastName">K.</span></span>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <div class="headerTitle">
+                    <p class = headerTagline>Software Engineer | UI/UX Enthusiast</p>
+                    <h1>Hi, I'm <span>Sena Kristiawan</span></h1>
+                    <p class = "aboutText">I am a Computer Science student who believes setting clear goals, 
+                        demonstrating commitment, maintaining consistency, nurturing maturity, honing communication skills, and wise thinking 
+                        abilities are the key points to focus on for self-development. In my major as a Software Engineer, I am eager to learn 
+                        new programming languages and acquiring new skills in different organizational roles. These experience has teaches me the 
+                        importance of effective teamwork and communication. Working alongside people from diverse backgrounds has enriched my 
+                        perspective and fueled my personal growth journey.</p>
+                </div>
+                <div class="headerImageContainer">
+                    <img class="profilePicture" src="images/fotodiri.jpg">
+                    <div class="quoteTitle">Keep Moving Forward !</div>
+                    <div class="quoteText">Do something today that your future self will <br> thank you for.</div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="experiences">
+        <div class="tabTitles">
+            <div class="tabLinks activeLinks" onclick="opentab('skills')">Skills</div>
+            <div class="tabLinks activeLinks" onclick="opentab('experience')">Experience</div>
+            <div class="tabLinks activeLinks" onclick="opentab('education')">Education</div>
+        </div>
+        <div class="tabContents activeTab" id="skills">
+            <div class="skillsTitles">
+                <div class="linkSkills activeLinkstab" onclick="openskills('technicalSkills')">Technical Skill</div>
+                <div class="linkSkills activeLinkstab" onclick="openskills('softSkills')">Soft Skill</div>
+            </div>
+            <div class="skillsContent activeSkillsTab" id="technicalSkills">
+                <div class ="gridItems Figma">
+                    <h2>Figma</h2>
+                    <ul>
+                        <li>Projects : 4</li>
+                    </ul>
+                </div>
+                <div class ="gridItems HTML">
+                    <h2>Hypertext Markup Language(HTML)</h2>
+                    <ul>
+                        <li>Certified : Sololearn</li>
+                        <li>Projects : 3</li>
+                    </ul>
+                </div>
+                <div class ="gridItems CSS">
+                    <h2>Cascading Style Sheets(CSS)</h2>
+                    <ul>
+                        <li>Certified : Sololearn</li>
+                        <li>Projects : 3</li>
+                    </ul>
+                </div>
+                <div class ="gridItems CProg">
+                        <h2>C Program</h2>
+                        <ul>
+                            <li>BINUS University Curriculum</li>
+                            <li>Projects : 2</li>
+                        </ul>
+                </div>
+                <div class ="gridItems Phyton">
+                        <h2>Phyton</h2>
+                        <ul>
+                            <li>BINUS University Curriculum</li>
+                            <li>Projects : 2</li>
+                        </ul>
+                </div>
+                <div class ="gridItems MyS">
+                        <h2>My SQL</h2>
+                        <p> Projectnya berapaa</p>
+                </div>
+                <div class ="gridItems JS">
+                        <h2>Java Script</h2>
+                        <p> Projectnya berapaa</p>
+                </div>
+                <div class ="gridItems Java">
+                        <h2>Java Program</h2>
+                        <p> Projectnya berapaa</p>
+                </div>
+                <div class ="gridItems Go">
+                    <h2>Go Language</h2>
+                    <p> Projectnya berapaa</p>
+                </div>
+                <div class ="gridItems Laravel">
+                    <h2>Laravel</h2>
+                    <p> Projectnya berapaa</p>
+                </div>
+            </div>
+            <div class="skillsContent  activeSkillsTab" id="softSkills">
+                <ul>
+                    <li>Critical Thingking</li>
+                    <li>Critical Thingking</li>
+                    <li>Critical Thingking</li>
+                    <li>Critical Thingking</li>
+                    <li>Critical Thingking</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="tabContents activeTab" id="experience">
+            <ul>
+                <li><span>experience</span><br>Software Engineer</li>
+                <li><span>Web </span><br>Software Engineer</li>
+                <li><span>UI/UX</span><br>Software Engineer</li>
+            </ul>
+        </div>
+        <div class="tabContents activeTab" id="education">
+            <ul>
+                <li><span>education</span><br>Software Engineer</li>
+                <li><span>Web </span><br>Software Engineer</li>
+                <li><span>UI/UX</span><br>Software Engineer</li>
+            </ul>
+        </div>
+    </div>
+    div
+    <script>
+        var allTablinks = document.getElementsByClassName("tabLinks");
+        var allTabcontents = document.getElementsByClassName("tabContents");
+
+        function opentab(tabname){
+                for(tabLink of allTablinks){
+                    tabLink.classList.remove("activeLinks");
+                }
+                for(tabContent of allTabcontents){
+                    tabContent.classList.remove("activeTab");
+                }
+            event.currentTarget.classList.add("activeLinks");
+            document.getElementById(tabname).classList.add("activeTab")
+        }
+        var allSkillLinks = document.getElementsByClassName("linkSkills");
+        var allSkillContent = document.getElementsByClassName("skillsContent");
+
+        function openskills(tabskills){
+            for(tablinkskills of allSkillLinks){
+                tablinkskills.classList.remove("activeLinksTab");
+            }
+            for(tabcontentskills of allSkillContent){
+                tabcontentskills.classList.remove("activeSkillsTab");
+            }
+            event.currentTarget.classList.add("activeLinksTab");
+            document.getElementById(tabskills).classList.add("activeSkillsTab");
+        }
+    </script>
+</body>
+</html>

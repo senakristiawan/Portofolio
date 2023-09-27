@@ -1,0 +1,223 @@
+*{
+    font-family: 'Lato', sans-serif;   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: #fff;
+}
+
+.container{
+    padding : 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navfirstName{
+    font-size: 35px;
+    font-weight:800;
+    color: #393E46;
+
+}
+.navlastName{
+    color: #00ADB5;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    position:relative;
+    padding-bottom:3px ;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #FFB085;
+    position :absolute;
+    left: 0;
+    bottom:-2px;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.headerText{
+    width: 100%;
+    display: flex;
+    margin-top:10%;
+    color: black;
+    justify-content:space-between;
+    align-items: center;
+}
+.headerTitle{
+    width: 50%;
+}
+.headerTitle .headerTagline{
+    font-size:24px;
+}
+.headerTitle .aboutText{
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
+    color: #393E46;
+}
+.headerTitle h1 span{
+    font-size:60px;
+    color: #00ADB5;
+}
+.headerTitle h1{
+    font-size:50px;
+    color: black;
+}
+.headerText .profilePicture{
+    width: 40%;
+    border-radius: 10px;
+}
+.headerText .quoteText{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(162, 159, 159);
+}
+.headerText .quoteTitle{
+    font-size:20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.headerImageContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ---------------------------------------EXPERIENCE--------------------------------------- */
+.experiences{
+    margin-top: 10%;
+    background-color: 393E46;
+}
+
+.tabTitles{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 20px;
+}
+.tabLinks{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tabLinks::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #FFB085;
+    left:0;
+    bottom:-5px;
+    position: absolute;
+}
+.tabLinks.activeLinks::after{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.tabContents ul li{
+    list-style-type: none;
+    margin: 10px 0;
+    color: #393E46;
+}
+
+.tabContents ul li span{
+    color:#00ADB5;
+    font-size: 20px;
+}
+.tabContents{
+    display: none;
+}
+.tabContents.activeTab{
+    display: block;
+}
+
+.skillsContent{
+    display: none;
+}
+.skillsContent.activeSkillsTab{
+    display: grid;
+    color: black;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+
+    text-align: center;
+    
+    grid-auto-flow:row dense;
+}
+.gridItems{
+    display:flex;
+    justify-content: space-evenly;
+    border: 3px solid white;
+    padding:100px 15px;
+    min-height: 140px;
+    align-items:center;
+    text-align: center;
+    background-color: #EEEEEE;
+    color:#00ADB5;
+    border-radius: 10px;
+}
+.gridItems p{
+    color:#393E46
+}
+.gridItems:hover{
+    background-color: #393E46;
+    color: #EEEEEE;
+    transition: 0.25s;
+    transform: scale(1.025);
+}
+.gridItems:hover ul li{
+    color: #EEEEEE;
+
+}
+.linkSkills{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    margin:10px 10px 50px 10px;
+}
+.linkSkills::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #FFB085;
+    left:0;
+    bottom:-5px;
+    position: absolute;   
+}
+.linkSkills.activeLinkstab:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.skillsTitles{
+    display: flex;
+    justify-content: space-evenly;
+}
