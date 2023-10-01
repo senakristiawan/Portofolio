@@ -1,3 +1,3 @@
 # Portofolio
 testi nih bang
-loh gimana sih
+loh gimana

@@ -34,8 +34,9 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:black;
+    color:#393E46;
     font-size: 18px;
+    font-weight: 500;
     position:relative;
     padding-bottom:3px ;
 }
@@ -54,10 +55,11 @@ nav ul li a:hover::after{
     width: 100%;
     transition: 0.5s;
 }
+/* ---------------------------------------HEADER--------------------------------------- */
 .headerText{
     width: 100%;
     display: flex;
-    margin-top:10%;
+    margin-top:5%;
     color: black;
     justify-content:space-between;
     align-items: center;
@@ -66,25 +68,26 @@ nav ul li a:hover::after{
     width: 50%;
 }
 .headerTitle .headerTagline{
-    font-size:24px;
+    font-size:32px;
 }
 .headerTitle .aboutText{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: justify;
     color: #393E46;
 }
 .headerTitle h1 span{
     font-size:60px;
+    font-weight: 1000;
     color: #00ADB5;
 }
 .headerTitle h1{
-    font-size:50px;
+    font-size:53px;
     color: black;
 }
 .headerText .profilePicture{
-    width: 40%;
-    border-radius: 10px;
+    width: 50%;
+    border-radius: 5px;
 }
 .headerText .quoteText{
     text-align: center;
@@ -93,7 +96,7 @@ nav ul li a:hover::after{
     color: rgb(162, 159, 159);
 }
 .headerText .quoteTitle{
-    font-size:20px;
+    font-size: 22px;
     font-weight: 700;
     color: black;
     margin-top: 6px;
@@ -119,10 +122,11 @@ nav ul li a:hover::after{
 }
 .tabLinks{
     color: black;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
+    margin-bottom: 2.5%;
 }
 .tabLinks::after{
     content: "";
@@ -144,15 +148,11 @@ nav ul li a:hover::after{
     color: #393E46;
 }
 
-.tabContents ul li span{
-    color:#00ADB5;
-    font-size: 20px;
-}
 .tabContents{
     display: none;
 }
 .tabContents.activeTab{
-    display: block;
+    display: inline;
 }
 
 .skillsContent{
@@ -166,9 +166,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
     /* margin-left: 100px;
     margin-right: 100px; */
-
     text-align: center;
-    
     grid-auto-flow:row dense;
 }
 .gridItems{
@@ -176,30 +174,84 @@ nav ul li a:hover::after{
     justify-content: space-evenly;
     border: 3px solid white;
     padding:100px 15px;
-    min-height: 140px;
+    min-height: 400px;
     align-items:center;
-    text-align: center;
+    text-align: start;
     background-color: #EEEEEE;
     color:#00ADB5;
     border-radius: 10px;
 }
-.gridItems p{
-    color:#393E46
+.gridItems ul li{
+    color:#393E46;
+    font-size: 18px;
+    font-weight: 600;
+}
+.gridItems h2{
+    font-size: 18px;
+}
+.gridItems a{
+    padding: 5px 10px 5px 10px;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.gridItems a:hover{
+    background-color: white;
+    border-radius: 2px solid #00ADB5;    
+    color: #00ADB5;
+    transition: ease-in-out 0.25s;
 }
 .gridItems:hover{
     background-color: #393E46;
     color: #EEEEEE;
-    transition: 0.25s;
+    transition: ease-in-out 0.5s;
     transform: scale(1.025);
 }
 .gridItems:hover ul li{
+    transition: 1s;
     color: #EEEEEE;
 
 }
+.largeTitle{
+    border-bottom: 3px solid#FFB085;
+    text-align: left;
+    padding-bottom: 5px;
+    grid-column: auto / span 3;
+    margin-bottom: 50px;
+}
+.largeTitle h1{
+    font-size: 60px;
+    color: #00ADB5;
+}
+.largeTitle h3{
+    font-size: 32px;
+}
+.largeTitleExperience{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid#FFB085;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #393E46;
+    text-align: center;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+.largeTitleExperience h1{
+    font-size: 60px;
+    color: #00ADB5;
+}
+.largeTitleExperience span{
+    color: #393E46;
+}
 .linkSkills{
     color: black;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
     margin:10px 10px 50px 10px;
@@ -220,4 +272,584 @@ nav ul li a:hover::after{
 .skillsTitles{
     display: flex;
     justify-content: space-evenly;
+}
+.squareGraph{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.squareGraph p{
+    color: white;
+    font-weight: 600;
+}
+.squareColor{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #00ADB5;
+}
+.squareScreen{
+    border-radius: 10px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+
+}
+.squareGraph{
+    margin: 20px 0px 0px 0px;
+}
+.gridItems.eas .squareScreen{
+    background-image: url("/images/Empathy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gridItems:hover.eas .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 1s;
+    height: 10px;
+}
+.gridItems.str .squareScreen{
+    background-image: url("/images/Striving.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.str .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 15px;
+}
+.gridItems.ope .squareScreen{
+    background-image: url("/images/Communication.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.ope .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.pos .squareScreen{
+    background-image: url("/images/Positivity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.pos .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 20px;
+}
+.gridItems.fle .squareScreen{
+    background-image: url("/images/Flexibility.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.fle .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.tim .squareScreen{
+    background-image: url("/images/Time.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.tim .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.rel .squareScreen{
+    background-image: url("/images/Realibility.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.rel .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.men .squareScreen{
+    background-image: url("/images/Mentorship.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.men .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.respo .squareScreen{
+    background-image: url("/images/Responsibility.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.respo .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.del .squareScreen{
+    background-image: url("/images/Delegation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.del .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.ada .squareScreen{
+    background-image: url("/images/Adaptibility.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.ada .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.confli .squareScreen{
+    background-image: url("/images/Conflitct.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.confli .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.agi .squareScreen{
+    background-image: url("/images/Agile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.agi .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.per .squareScreen{
+    background-image: url("/images/Perseverance.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.per.squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.int .squareScreen{
+    background-image: url("/images/Integrity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.int .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.tea .squareScreen{
+    background-image: url("/images/Teamwork.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.tea .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.sha .squareScreen{
+    background-image: url("/images/Sharing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.sha .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.confi .squareScreen{
+    background-image: url("/images/Confidence.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.confi .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.rig .squareScreen{
+    background-image: url("/images/Right\ Communication.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.rig .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.fri .squareScreen{
+    background-image: url("/images/Friendlines.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.fri .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.act .squareScreen{
+    background-image: url("/images/Listening.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.act .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.respe .squareScreen{
+    background-image: url("/images/Respect.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.respe .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.per .squareScreen{
+    background-image: url("/images/Perseverance.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.per .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.pub .squareScreen{
+    background-image: url("/images/Public\ Speaking.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.pub .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.non .squareScreen{
+    background-image: url("/images/Body\ Language.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.non .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.pro .squareScreen{
+    background-image: url("/images/Problem\ Solving.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.pro .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.cri .squareScreen{
+    background-image: url("/images/Critical\ Thinking.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.cri .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+
+.gridItems.inn{
+    grid-column: auto/span 3;
+}
+.gridItems.inn .squareScreen{
+    background-image: url("/images/Innovation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.inn .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.gridItems.pre .squareScreen{
+    background-image: url("/images/Presentation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.pre .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 10px;
+}
+.experiencesBox{
+    width: 630px;
+    color: #393E46;
+    margin-left: 15%;
+}
+.experiencesBox h1{
+    color: #00ADB5;
+    font-size: 32px;
+}
+.experiencesBox h3{
+    font-size: 22px;
+}
+.experiencesBox p{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+    color: #393E46;
+}
+.hiasan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.experienceBack{
+    margin-bottom: 10%;
+}
+.educationBack{
+    margin-bottom: 10%;
+}
+.line{
+    margin-left:13.1%;
+    background-color: #FFB200;
+    width: 3px;
+    height:300px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.dot{
+    height: 3px;
+    width: 30px;
+    background-color: #393E46;
+    display: inline-block;
+    margin-left:12.5%;
+}
+
+.hidden{
+    opacity:0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show{
+    opacity:1;
+    filter: blur(0);
+    transform:translateX(0);
+}
+.tr:nth-child(1){
+    transition-delay: 2s;
+}
+.tr:nth-child(2){
+    transition-delay: 1s;
+}
+.tr:nth-child(3){
+    transition-delay: 3s;
+}
+.tr:nth-child(4){
+    transition-delay: 4s;
+}
+.tr:nth-child(5){
+    transition-delay: 4.5s;
+}
+.tr:nth-child(6){
+    transition-delay: 5s;
+}
+.button{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.projectsTab{
+    background-color: #393E46;
+    display: grid;
+    color: white;
+    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    grid-auto-flow:row dense;
+    padding-bottom: 130px;
+}
+.largeTitle.project h1{
+    margin-top: 50px;
+    color: #F6F1F1;
+}
+.gridItemsProjects.pd{
+    background-image: url("images/Pet\'s\ Diary.png");
+    opacity: 70%;
+    background-repeat:repeat;
+    grid-column: auto/ span 2;
+}
+.gridItemsProjects.interio{
+    background-image: url("images/Interio.png");
+    opacity: 70%;
+    background-repeat:repeat;
+    grid-row: auto/ span 2;
+}
+.gridItemsProjects.bp{
+    background-image: url("images/BinusPark.png");
+    opacity: 70%;
+    background-repeat:repeat;
+    grid-column: auto/ span 2;
+}
+.gridItemsProjects.ven{
+    background-image: url("images/Venture.png");
+    opacity: 70%;
+    background-repeat:repeat;
+}
+.gridItemsProjects.pt{
+    background-image: url("images/PCThrift.png");
+    opacity: 70%;
+    background-repeat:repeat;
+}
+.gridItemsProjects a{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.gridItemsProjects.san{
+    background-image: url("images/SansWork.png");
+    opacity: 70%;
+    background-repeat:repeat;
+}
+.gridItemsProjects{
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    /* max-width: 200px; */
+    align-items:center;
+    text-align: center;
+    background-color: #24272c;
+    color:#00ADB5;
+    border-radius: 10px;
+}
+.gridItemsProjects h2{
+    padding: 5px 5px 5px 5px;
+    background-color: #00ADB5;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.gridItemsProjects:hover{
+    transform: scale(1.025);
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+.miniFooter{
+    background-color: #393E46;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 20px 10px;
+}
+.miniFooter h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+.miniFooter h3{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.miniFooter .icons8{
+    font-size: 32px;
+    color: #FFB085;
+}
+.miniFooter ul{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+}
+.miniFooter ul li{
+    padding: 2px 0px 2px 0px;
+}
+.miniFooter p{
+    font-size: 18px;
+    font-weight: 600;
+    padding:10px 0px 10px 0px;
+}
+.seperator{
+    background-color: #FFB200;
+    height: 150px;
+    width: 3px;
 }

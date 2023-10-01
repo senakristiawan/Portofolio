@@ -1,165 +1,689 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sena Kristiawan</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <span class="navfirstName">Sena <span class="navlastName">K.</span></span>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contactme">Contact Me</a></li>
-                </ul>
-            </nav>
-            <div class="headerText">
-                <div class="headerTitle">
-                    <p class = headerTagline>Software Engineer | UI/UX Enthusiast</p>
-                    <h1>Hi, I'm <span>Sena Kristiawan</span></h1>
-                    <p class = "aboutText">I am a Computer Science student who believes setting clear goals, 
-                        demonstrating commitment, maintaining consistency, nurturing maturity, honing communication skills, and wise thinking 
-                        abilities are the key points to focus on for self-development. In my major as a Software Engineer, I am eager to learn 
-                        new programming languages and acquiring new skills in different organizational roles. These experience has teaches me the 
-                        importance of effective teamwork and communication. Working alongside people from diverse backgrounds has enriched my 
-                        perspective and fueled my personal growth journey.</p>
-                </div>
-                <div class="headerImageContainer">
-                    <img class="profilePicture" src="images/fotodiri.jpg">
-                    <div class="quoteTitle">Keep Moving Forward !</div>
-                    <div class="quoteText">Do something today that your future self will <br> thank you for.</div>
-                </div>
-            </div>
-        </div>  
-    </div>
-    <div class="experiences">
-        <div class="tabTitles">
-            <div class="tabLinks activeLinks" onclick="opentab('skills')">Skills</div>
-            <div class="tabLinks activeLinks" onclick="opentab('experience')">Experience</div>
-            <div class="tabLinks activeLinks" onclick="opentab('education')">Education</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sena Kristiawan</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <span class="navfirstName">Sena <span class="navlastName">K.</span></span>
+                </nav>
+                        <div class="headerText">
+                            <div class="headerTitle">
+                                <p class = "tr headerTagline hidden">Software Engineer | UI/UX Enthusiast</p>
+                                <h1 class = "tr hidden">Hi, I'm <span>Sena Kristiawan</span></h1>
+                                <p class = "tr aboutText hidden">I am a Computer Science student who believes setting clear goals, 
+                                    demonstrating commitment, maintaining consistency, nurturing maturity, honing communication skills, and wise thinking 
+                                    abilities are the key points to focus on for self-development. In my major as a Software Engineer, I am eager to learn 
+                                    new programming languages and acquiring new skills in different organizational roles. These experience has teaches me the 
+                                    importance of effective teamwork and communication. Working alongside people from diverse backgrounds has enriched my 
+                                    perspective and fueled my personal growth journey.</p>
+                                    <a class = "tr button hidden" href="https://www.instagram.com/sena_kristiawan/"><img class="logo instagram" src="/images/Instagram.png"></a>
+                                    <a class = "tr button hidden" href="mailto: senakristiawan1@gmail.com"><img class="logo gmail" src="/images/Gmail.png"></a>
+                                    <a class = "tr button hidden" href="https://www.linkedin.com/in/sena-kristiawan-15b711219/"><img class="logo linkedin" src="/images/Linkedin.png"></a>
+                            </div>
+                            <div class="headerImageContainer hidden">
+                                <img class="profilePicture" src="images/fotodiri.jpg">
+                                <div class="quoteTitle">Keep Moving Forward !</div>
+                                <div class="tr quoteText hidden">Do something today that your future self will <br> thank you for.</div>
+                            </div>
+                        </div>
+            </div>  
         </div>
-        <div class="tabContents activeTab" id="skills">
-            <div class="skillsTitles">
-                <div class="linkSkills activeLinkstab" onclick="openskills('technicalSkills')">Technical Skill</div>
-                <div class="linkSkills activeLinkstab" onclick="openskills('softSkills')">Soft Skill</div>
+        <section class="hidden">
+            <div class="experiences">
+                <div class="tabTitles">
+                    <div class="tabLinks activeLinks" onclick="opentab('skills')">Skills</div>
+                    <div class="tabLinks activeLinks" onclick="opentab('experience')">Experience</div>
+                    <div class="tabLinks activeLinks" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tabContents activeTab" id="skills">
+                    <div class="skillsTitles">
+                        <div class="linkSkills activeLinkstab" onclick="openskills('technicalSkills')">Technical Skill</div>
+                        <div class="linkSkills activeLinkstab" onclick="openskills('softSkills')">Soft Skill</div>
+                    </div>
+                    <div class="skillsContent activeSkillsTab" id="technicalSkills">
+                        <div class="largeTitle"> 
+                            <h1>Technical</h1>
+                            <h3>Skills</h3>
+                        </div>
+                        <div class ="gridItems Figma">
+                            <h2>Figma</h2>
+                            <ul>
+                                <li>Self Learning</li>
+                                <li>Projects : 4</li>
+                            </ul>
+                        </div>
+                        <div class ="gridItems">
+                            <h2>Hypertext Markup <br>Language(HTML)</h2>
+                            <ul>
+                                <li>BINUS University Curriculum</li>
+                                <li>Certified : Sololearn</li>
+                                <a href="https://www.sololearn.com/certificates/CC-ZJOKS3WK">Show credential</a>
+                                <li>Projects : 3</li>
+                            </ul>
+                        </div>
+                        <div class ="gridItems">
+                            <h2>Cascading Style<br>Sheets(CSS)</h2>
+                            <ul>
+                                <li>BINUS University Curriculum</li>
+                                <li>Certified : Sololearn</li>
+                                <a href="https://www.sololearn.com/certificates/CC-GDF7OOFG">Show credential</a>
+                                <li>Projects : 3</li>
+                            </ul>
+                        </div>
+                        <div class ="gridItems">
+                                <h2>C Program</h2>
+                                <ul>
+                                    <li>BINUS University Curriculum</li>
+                                    <li>Projects : 2</li>
+                                </ul>
+                        </div>
+                        <div class ="gridItems">
+                                <h2>Phyton</h2>
+                                <ul>
+                                    <li>BINUS University Curriculum</li>
+                                    <li>Certified : Progate</li>
+                                    <a href="https://drive.google.com/file/d/1EP5Dul3bhCC_qKHvId1liE-ROYMx20vF/view?usp=sharing">Show credential</a>
+                                    <li>Projects : 2</li>
+                                </ul>
+                        </div>
+                        <div class ="gridItems">
+                                <h2>My SQL</h2>
+                                <ul>
+                                    <li>BINUS University Curriculum</li>
+                                    <li>Projects : 1</li>
+                                </ul>
+                        </div>
+                        <div class ="gridItems">
+                                <h2>Java Script</h2>
+                                <ul>
+                                    <li>BINUS University Curriculum</li>
+                                    <li>Certified : Sololearn</li>
+                                    <a href="https://www.sololearn.com/certificates/CC-FI41ZY5N">Show credential</a>
+                                    <li>Projects : 2</li>
+                                </ul>
+                        </div>
+                        <div class ="gridItems">
+                                <h2>Java Program</h2>
+                                <ul>
+                                    <li>BINUS University Curriculum</li>
+                                    <li>Projects : 1</li>
+                                </ul>
+                        </div>
+                        <div class ="gridItems">
+                            <h2>Go Language</h2>
+                            <ul>
+                                <li>Self Learning</li>
+                                <li>Certified : Camp404</li>
+                                <a href="https://drive.google.com/file/d/1_LWf5ZySrNgKS8q8rkiDOCeesHNLJZBj/view?usp=sharing">Show credential</a>
+                            </ul>
+                        </div>
+                        <div class ="gridItems">
+                            <h2>Laravel</h2>
+                            <ul>
+                                <li>Self Learning</li>
+                                <li>Projects : 1</li>
+                            </ul>
+                        </div>
+                        <div class ="gridItems">
+                            <h2>Cisco Packet Tracer</h2>
+                            <ul>
+                                <li>BINUS University Curriculum</li>
+                                <li>Projects : 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skillsContent  activeSkillsTab" id="softSkills">
+                        <div class="largeTitle"> 
+                            <h1>Soft</h1>
+                            <h3>Skills</h3>
+                        </div>
+                        <div class ="gridItems agi">
+                            <div class="titleSquareAgi">
+                                <h2>Agile Scrum Management</h2>
+                                <div class="squareGraph">
+                                    <div class="squareColor"><p>70%</p></div>
+                                    <div class="squareScreen"></div>
+                                    <div class="squareBlock"></div>
+                                </div>
+                            </div>
+                            <div class="showAgi">
+                                <a href="https://drive.google.com/drive/folders/1pxHa6B1urfxslTWxMGdGWPqPzeI__uMg?usp=sharing">Show credential</a>
+                            </div>
+                        </div>
+                        <div class ="gridItems eas">
+                            <h2>Emphaty and Sympathy</h2>
+                            <div class="squareGraph eas">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div>
+                        <div class ="gridItems str">
+                            <h2>Striving for Excellence</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>85%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div>
+                        <div class ="gridItems ope">
+                            <h2>Open Communication</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems pos">
+                            <h2>Positivity</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems fle">
+                            <h2>Flexibility</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems tim">
+                            <h2>Time Management</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems rel ">
+                            <h2>Realibility</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems men">
+                            <h2>Mentorship</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems respo">
+                            <h2>Responsibility</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>100%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems del">
+                            <h2>Delegation</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>70%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems ada">
+                            <h2>Adaptibility</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems confli">
+                            <h2>Conflict Resolution</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems per">
+                            <h2>Perseverance</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems int">
+                            <h2>Integrity</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>100%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems tea">
+                            <h2>Teamwork</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>95%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems sha">
+                            <h2>Sharing Feedback</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems confi">
+                            <h2>Confidence</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>85%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems rig">
+                            <h2>Right Communication Method</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>80%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems fri">
+                            <h2>Friendliness</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems act">
+                            <h2>Active Listening</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>100%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems respe">
+                            <h2>Respect</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>95%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems pre">
+                            <h2>Presentation</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>75%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems pub">
+                            <h2>Public Speaking</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>70%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems non">
+                            <h2>Non Verbal</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>75%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems pro">
+                            <h2>Problem Solving</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>85%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems cri">
+                            <h2>Critical Thinking</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>90%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div><div class ="gridItems inn">
+                            <h2>Innovation</h2>
+                            <div class="squareGraph">
+                                <div class="squareColor"><p>75%</p></div>
+                                <div class="squareScreen"></div>
+                                <div class="squareBlock"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="skillsContent activeSkillsTab" id="technicalSkills">
-                <div class ="gridItems Figma">
-                    <h2>Figma</h2>
-                    <ul>
-                        <li>Projects : 4</li>
-                    </ul>
+        </section>
+            <div class="tabContents activeTab" id="experience">
+                <div class="largeTitleExperience"> 
+                    <h1>Exp<span>eriences</span></h1>
                 </div>
-                <div class ="gridItems HTML">
-                    <h2>Hypertext Markup Language(HTML)</h2>
-                    <ul>
-                        <li>Certified : Sololearn</li>
-                        <li>Projects : 3</li>
-                    </ul>
-                </div>
-                <div class ="gridItems CSS">
-                    <h2>Cascading Style Sheets(CSS)</h2>
-                    <ul>
-                        <li>Certified : Sololearn</li>
-                        <li>Projects : 3</li>
-                    </ul>
-                </div>
-                <div class ="gridItems CProg">
-                        <h2>C Program</h2>
-                        <ul>
-                            <li>BINUS University Curriculum</li>
-                            <li>Projects : 2</li>
-                        </ul>
-                </div>
-                <div class ="gridItems Phyton">
-                        <h2>Phyton</h2>
-                        <ul>
-                            <li>BINUS University Curriculum</li>
-                            <li>Projects : 2</li>
-                        </ul>
-                </div>
-                <div class ="gridItems MyS">
-                        <h2>My SQL</h2>
-                        <p> Projectnya berapaa</p>
-                </div>
-                <div class ="gridItems JS">
-                        <h2>Java Script</h2>
-                        <p> Projectnya berapaa</p>
-                </div>
-                <div class ="gridItems Java">
-                        <h2>Java Program</h2>
-                        <p> Projectnya berapaa</p>
-                </div>
-                <div class ="gridItems Go">
-                    <h2>Go Language</h2>
-                    <p> Projectnya berapaa</p>
-                </div>
-                <div class ="gridItems Laravel">
-                    <h2>Laravel</h2>
-                    <p> Projectnya berapaa</p>
-                </div>
-            </div>
-            <div class="skillsContent  activeSkillsTab" id="softSkills">
-                <ul>
-                    <li>Critical Thingking</li>
-                    <li>Critical Thingking</li>
-                    <li>Critical Thingking</li>
-                    <li>Critical Thingking</li>
-                    <li>Critical Thingking</li>
-                </ul>
-            </div>
-        </div>
+                <div class="experienceback">
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Freshmen Partner of First Year Program Binus 2027</h1>
+                            <h3>BINUS University | Sep 2023 - Present</h3>
+                            <p>Freshmen Partner (FP) is a mentor for freshmen during 1 year of study (semester 1 and semester 2) 
+                                for Academic Experience First Year Program Binus 2027.<br><br>
+                                • Mentoring 13 session activities in semester 1 and semester 2.<br>
+                                • Leading and monitoring 11 freshmen throughout their first year.<br>
+                                • Assisting and guiding freshmen during their first year of study.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Coordinator of Event Division at Company Visit 2023</h1>
+                            <h3>HIMTI BINUS University | Jun 2023 - Present</h3>
+                            <p>HIMTI Company Visit event is an organized visit to a company's facilities or offices participated
+                                up to 50 student participant. HIMTI Company Visit arranged to achieve educational purposes, especially 
+                                for students in fields related to the company's industry. Company Visit provide an opportunity to learn 
+                                about the company's operations, products, services, industry trends and work environment. <br><br>
 
-        <div class="tabContents activeTab" id="experience">
-            <ul>
-                <li><span>experience</span><br>Software Engineer</li>
-                <li><span>Web </span><br>Software Engineer</li>
-                <li><span>UI/UX</span><br>Software Engineer</li>
-            </ul>
-        </div>
-        <div class="tabContents activeTab" id="education">
-            <ul>
-                <li><span>education</span><br>Software Engineer</li>
-                <li><span>Web </span><br>Software Engineer</li>
-                <li><span>UI/UX</span><br>Software Engineer</li>
-            </ul>
-        </div>
-    </div>
-    div
-    <script>
-        var allTablinks = document.getElementsByClassName("tabLinks");
-        var allTabcontents = document.getElementsByClassName("tabContents");
+                                • Planning 1 day schedule event's rundown for the Company Visit 2023 based on the requirements and environment of the Company.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Activist at Programming Class Division</h1>
+                            <h3>HIMTI BINUS University | Mar 2023 - Present </h3>
+                            <p>• Involved in 4 HIMTI (Himpunan Mahasiswa Teknik Informatika) events actively.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Staff of Seminar & Workshop Division at HISHOT 2023</h1>
+                            <h3>HIMTI BINUS University | Mar 2023 - Present</h3>
+                            <p>HISHOT 2023 is a series of 4 events arranged by 84 committees. Two of the events are an onsite Seminar event and 2 online Workshop.<br><br>
 
-        function opentab(tabname){
-                for(tabLink of allTablinks){
-                    tabLink.classList.remove("activeLinks");
+                                • As a Liaison Officer managed the requirement and interactions with a total of 4 speaker and trainer(2 seminar speaker, 2 workshop 
+                                trainers). Responsible facilitation of their respective requirements.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Coordinator of Event Division at Pengabdian Kepada Masyarakat(PKM) 2023</h1>
+                            <h3>HIMTI BINUS University | Jun 2023 - Sep 2023</h3>
+                            <p>Pengabdian Kepada Masyarakat(PKM) is one of HIMTI's course programming workshop 5 days event which is a specialized educational 
+                                gathering designed to teach 2 class of SMK Yadika 4 with a total of 80 students for up to 5 programming language, such as HTML(Hypertext Markup Language), 
+                                CSS(Cascading Style Sheets), Java Script, Figma, and Python. PKM are hands-on and focus on practical learning, allowing students to gain 
+                                practical experience in writing code and solving programming problems. Pengabdian Kepada Masyarakat(PKM) covered introductory for each 
+                                programming language for beginners from experienced college students, organized by 20 committees and 9 committee in charge for each day.<br>
+                                <br>
+                                • Planned a meticulously comprehensive, 5 day schedule for the PKM 2023 event, allotting 3 hours per 
+                                day for 80 participants based on school's requirements.<br>
+                                • Lead a dedicated team of 3 members bringing their unique skills and perspectives to enhance the 
+                                PKM 2023 event.<br>
+                                • Planned and technical preparations for 5 day onsite workshop event, coordinated equipment, and 
+                                resources to ensure a seamless and enriching experience for participants.<br>
+                                • Served as a liaison between high school and PKM 2023 Committees, facilitating collaboration to 
+                                deliver a coordinated event.<br>
+                                • Contacted 2 high school principals, to facilitate PKM 2023 event's execution through proposal 
+                                submissions and agreements.<br>
+                                • Overseed event's preparation, conducting and supervised more than 6 rehearsals to fine-tune our 
+                                event and operations.<br>
+                                • Summarized and integrated each 6 organized comprehensive evaluations, insights, and discussions, to 
+                                1 guideline for next year Pengabdian Kepada Masyarakat(PKM) event.<br>
+                                • The master of ceremony(MC) for 2 days of the PKM 2023 event, to guide the proceedings, engage the 
+                                audience, and the seamless flow of sessions.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Staff of Event Division at HIMTI Seminar Programming Class 2023</h1>
+                            <h3>HIMTI BINUS University | Apr 2023 - Jun 2023</h3>
+                            <p>Seminar Programming Class 2023 about a data analyst career is an educational presentation event that focuses 
+                                on providing information, insights, and guidance related to the profession of data analysis.<br><br>
+
+                                • As a timekeeper meticulously during both the rehearsal periods and the precise execution of the event itself, ensuring every segment adhered to the predetermined schedule. <br>
+                                • Summarized key takeaways meetings conducted and discussions served as valuable reference materials.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Worship Division of Youth Commission</h1>
+                            <h3>GKI Maleo Raya | Jul 2021 - Present</h3>
+                            <p>Youth Commission is a structured committee that is responsible for overseeing and coordinating the activities and 
+                                programs aimed at serving and engaging the youth members of the church community.<br><br>
+
+                                Persekutuan Pemuda is a monthly gathering or fellowship activity specifically organized for the young members of the Youth Commission. Persekutuan Pemuda event typically draws an enthusiastic gathering of around 20 young individuals.<br><br>
+                                
+                                • Devising more than 12 planning and liturgies fellowship (Persekutuan Pemuda) event.<br>
+                                • Contacting up to 12 priest for monthly fellowship event speaker.<br>
+                                • Contacting 5 youths for 5 fellowship roles, such as MC, operator and musicians.<br>
+                                • Creatively written online invitations for participants to join Persekutuan Pemuda<br><br>
+                                
+                                Retreat is a yearly religious event organized by Youth Commission for young people intended to provide a spiritual, recreational or community building experience. This year's GKI Maleo Raya Retreat event enlivened by 35+ participants.<br><br>
+                                
+                                • Planned a comprehensive schedule spanning 2 days and 1 night for the GKI Maleo Raya Youth Retreat,<br>
+                                • As the master of ceremonies (MC) for multiple event sessions<br>
+                                • Decided carefully the necessary equipment for game sessions and organized the event's flow,<br>
+                                • Managed the timing of the event, ensuring that each moment ran smoothly and according to schedule,<br>
+                                • As a liaison between Retreat speaker and Youth Committees</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Liturgy Division Member of Semester Comittee</h1>
+                            <h3>GKI Maleo Raya | Jan 2022 - Jun 2022</h3>
+                            <p>Semester Committee is an assembly of church individuals from various backgrounds, united with the purpose of organizing a 
+                                series of Christian holy day events throughout a single semester in a year.<br><br>
+
+                                • Actively as a liaison officer bridging between Semester Committee and Youth Commission<br>
+                                • Organized GKI Maleo Raya Christian Holy Days events.<br>
+                                • Supervised events executions</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Co-Leader of Teenage Commission</h1>
+                            <h3>GKI Maleo Raya | Jun 2020 - Jun 2021</h3>
+                            <p>• As supporting role in assisting the Teenage Commission leader by coordinating a team of 5 members of Teenage Commission.<br>
+                                • Assisting in the delegation and execution of various leader's tasks.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Freshmen Leader of First Year Program Binus 2027</h1>
+                            <h3>BINUS University | Sep 2023 - Present</h3>
+                            <p>The First Year Program (FYP) is a 1 year program for BINUSIANS who has recently joined the BINUS University extended family.
+                                A series of 8 events, Pre-FYP, Opening FYP, Orientation & Transition Program, Week of Welcoming, Academic Services, Inauguration, and Academic Experience, make up the program from beginning to end. Freshmen Leader will lead through the first 7of these activities to aid Freshmen in adjusting to the environment, values, and activities of BINUS University.<br><br>
+
+                                • Guided Freshmen for the orientation program to involve attending sessions to understand BINUS University goals, schedule, activities, and facilities.<br>
+                                • Provided beneficial information about important locations and tips & tricks to study in BINUS University.<br>
+                                • As a problem solver and emotional supporter to Freshmen's concerns about campus life.<br>
+                                • Monitor and led 11 dedicated Freshmen during FYP Program.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Scout Honorary Council</h1>
+                            <h3>Pramuka SMAK Penabur Bintaro Jaya | Feb 2020 - Feb 2021</h3>
+                            <p>• Conducted and lead meetings for Scout events, such as Perjusa (Pekemahan Jumat Sabtu) and Jambore.<br>
+                                • Communicator between high school principal and Scout.<br>
+                                • Lead 23 Scout members and participants in weekly Scout ceremony with Pimpinan Sangga.</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>Worship Division of Teenage Commission</h1>
+                            <h3>GKI Maleo Raya | Sep 2019 - Feb 2020</h3>
+                            <h1>-------------------------------------</h1>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="tabContents activeTab" id="education">
+                <div class="largeTitleExperience"> 
+                    <h1>Edu<span>cation</span></h1>
+                </div>
+                <div class="educationBack">
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>BINUS University</h1>
+                            <h3>Bachelor's degree, Computer Science | Sep 2021 - Sep 2025</h3>
+                            <p>Activities and societies: |<br><br>
+                                • Himpunan Mahasiswa Teknik Informatika (HIMTI) BINUS University<br>
+                                • First Year Program BINUS University 2027</p>
+                        </div>
+                    </section>
+                    <div class="hiasan">
+                        <div class="dot"></div>
+                        <div class="line"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <section class="hidden">
+                        <div class="experiencesBox">
+                            <h1>SMAK PENABUR Bintaro Jaya</h1>
+                            <h3>High School Diploma, Mathematics and Natural Science</h3>
+                            <p>Jun 2018 - Jun 2021</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            </div>
+            <div class="projectsTab">
+                <div class="largeTitle project hidden"> 
+                    <a href="https://docs.google.com/document/d/1YEcPbWQ375xr6bfmFYenM37Ev7tJxp2jSisyIJH151E/edit?usp=sharing"></a>
+                    <h1>Projects</h1>
+                </div>
+                <div class ="gridItemsProjects pd hidden">
+                    <a href="https://www.figma.com/file/S4Q65EJCP8alqSnihzyxPM/Self-Project---Pet's-Diary-UI%2FUX?type=design&node-id=0%3A1&mode=design&t=hEDGQL803ZTLCd7v-1"></a>
+                    <h2>Pet's Diary</h2>
+                </div>
+                <div class ="gridItemsProjects interio hidden">
+                    <a href="https://www.figma.com/file/dqtBhi0LkwPPIYFV1KnhRP/Self-Project---Interio?type=design&node-id=0%3A1&mode=design&t=PfVkoAEemwV1gwGM-1"></a>
+                    <h2>Interio</h2>
+                </div>
+                <div class ="gridItemsProjects san hidden">
+                    <a href="https://www.figma.com/file/Oj50x89lSFIoa9FuqqaBb3/Sanswork-UI%2FUX?type=design&node-id=0%3A1&mode=design&t=nNiBdw9KkfYWQga6-1"></a>
+                    <h2>SansWork</h2>
+                </div>
+                <div class ="gridItemsProjects pt hidden">
+                    <a href="https://docs.google.com/document/d/1YEcPbWQ375xr6bfmFYenM37Ev7tJxp2jSisyIJH151E/edit?usp=sharing"></a>
+                    <h2>PCThrift</h2>
+                </div>
+                <div class ="gridItemsProjects ven hidden">
+                    <a href="https://www.figma.com/file/BbBceNONWIOJhdhlzdhn5C/UAS-HCI-sem-2_2540127780_Sena-Kristiawan?type=design&node-id=0%3A1&mode=design&t=8POL2zFNjsotMuDE-1"></a>
+                    <h2>Venture</h2>
+                </div>
+                <div class ="gridItemsProjects bp hidden">
+                    <a href="https://www.figma.com/file/LY4jfB4xo4mIf7dWCaeenc/BinusPark-(Copy)?type=design&mode=design&t=FEKsFLEqPhTGHIIO-1"></a>
+                    <h2>BinusPark</h2>
+                </div>
+            </div>
+            <div class="miniFooter">
+                <div class="copyrights">
+                    <h1 class>©Copyright</h1>
+                    <h3 class>all rights reserved.</h3>
+                    <h3>Icons by</h3> 
+                    <a class="icons8" target="_blank" href="https://icons8.com">Icons8</a>
+                </div>
+                <div class="seperator"></div>
+                <div class="contactMe">
+                    <p>Contact :</p>
+                    <ul>
+                        <li>Sena Kristiawan</li>
+                        <li>086594907798</li>
+                        <li>senakristiawan1@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                var allTablinks = document.getElementsByClassName("tabLinks");
+                var allTabcontents = document.getElementsByClassName("tabContents");
+
+                function opentab(tabname){
+                        for(tabLink of allTablinks){
+                            tabLink.classList.remove("activeLinks");
+                        }
+                        for(tabContent of allTabcontents){
+                            tabContent.classList.remove("activeTab");
+                        }
+                    event.currentTarget.classList.add("activeLinks");
+                    document.getElementById(tabname).classList.add("activeTab");
                 }
-                for(tabContent of allTabcontents){
-                    tabContent.classList.remove("activeTab");
-                }
-            event.currentTarget.classList.add("activeLinks");
-            document.getElementById(tabname).classList.add("activeTab")
-        }
-        var allSkillLinks = document.getElementsByClassName("linkSkills");
-        var allSkillContent = document.getElementsByClassName("skillsContent");
+                var allSkillLinks = document.getElementsByClassName("linkSkills");
+                var allSkillContent = document.getElementsByClassName("skillsContent");
 
-        function openskills(tabskills){
-            for(tablinkskills of allSkillLinks){
-                tablinkskills.classList.remove("activeLinksTab");
-            }
-            for(tabcontentskills of allSkillContent){
-                tabcontentskills.classList.remove("activeSkillsTab");
-            }
-            event.currentTarget.classList.add("activeLinksTab");
-            document.getElementById(tabskills).classList.add("activeSkillsTab");
-        }
-    </script>
-</body>
+                function openskills(tabskills){
+                    for(tablinkskills of allSkillLinks){
+                        tablinkskills.classList.remove("activeLinksTab");
+                    }
+                    for(tabcontentskills of allSkillContent){
+                        tabcontentskills.classList.remove("activeSkillsTab");
+                    }
+                    event.currentTarget.classList.add("activeLinksTab");
+                    document.getElementById(tabskills).classList.add("activeSkillsTab");
+                }
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        console.log(entry)
+                        if (entry.isIntersecting){
+                            entry.target.classList.add('show');
+                        }else {
+                            entry.target.classList.remove('show');
+                        }
+                    });
+                });
+
+                const hiddenElements = document.querySelectorAll('.hidden');
+                hiddenElements.forEach((el)=> observer.observe(el));
+            </script>
+    </body>
 </html>
