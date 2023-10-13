@@ -695,16 +695,18 @@ nav ul li a:hover::after{
     margin-left:13.1%;
     background-color: #FFB200;
     width: 3px;
-    height:300px;
+    opacity: 0.6;
+    height:100px;
     margin-top: -5px;
     margin-bottom: -5px;
 }
 .dot{
     height: 3px;
     width: 30px;
+    opacity: 0.6;
     background-color: #393E46;
     display: inline-block;
-    margin-left:12.5%;
+    margin-left:14%;
 }
 
 .hidden{
@@ -757,43 +759,74 @@ nav ul li a:hover::after{
     margin-top: 50px;
     color: #F6F1F1;
 }
-.gridItemsProjects.pd{
-    background-image: url("images/Pet\'s\ Diary.png");
-    opacity: 70%;
-    background-repeat:repeat;
+.gridItemsProjects .omsp h2{
+    border-radius: 0px 0px 0px 0px;
+}
+.gridItemsProjects h2{
+    padding: 5px 5px 5px 5px;
+    background-color: #00ADB5;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.gridItemsProjects h3{
+    background-color: #F6F1F1;
+    border-radius: 5px;
+    color:#393E46;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: 400;
+    padding: 5px 5px 5px 5px;
+
+}
+.gridItemsProjects.pd1{
+    background-image: url("images/Pet\'s\ Diary1.png");
     grid-column: auto/ span 2;
+}
+.gridItemsProjects.pd2{
+    background-image: url("images/Pet\'s\ Diary2.png");
 }
 .gridItemsProjects.interio{
     background-image: url("images/Interio.png");
-    opacity: 70%;
-    background-repeat:repeat;
-    grid-row: auto/ span 2;
 }
 .gridItemsProjects.bp{
     background-image: url("images/BinusPark.png");
-    opacity: 70%;
-    background-repeat:repeat;
-    grid-column: auto/ span 2;
+    grid-row: auto/ span 2;
 }
 .gridItemsProjects.ven{
     background-image: url("images/Venture.png");
-    opacity: 70%;
-    background-repeat:repeat;
 }
 .gridItemsProjects.pt{
     background-image: url("images/PCThrift.png");
-    opacity: 70%;
-    background-repeat:repeat;
+    grid-row: auto/ span 2;
+}
+.gridItemsProjects.an{
+    background-image: url("images/AgriNet.png");
+}
+.gridItemsProjects.san{
+    background-image: url("images/SansWork.png");
+}
+.gridItemsProjects.scm{
+    background-image: url("images/StudentCoursesManagement.png");
+}
+.gridItemsProjects.omsp{
+    background-color: #FFB200;
+    color:#393E46;
+    grid-column: auto/ span 3;
+}
+.gridItemsProjects.pg{
+    background-image: url("images/PerpusGawls.png");
+}
+.gridItemsProjects.cp1{
+    background-image: url("images/SimpleCalculator.png");
+}
+.gridItemsProjects.cp2{
+    background-image: url("images/Voting.png");
 }
 .gridItemsProjects a{
     width: 100%;
     height: 100%;
     cursor: pointer;
-}
-.gridItemsProjects.san{
-    background-image: url("images/SansWork.png");
-    opacity: 70%;
-    background-repeat:repeat;
 }
 .gridItemsProjects{
     display: flex;
@@ -805,14 +838,6 @@ nav ul li a:hover::after{
     background-color: #24272c;
     color:#00ADB5;
     border-radius: 10px;
-}
-.gridItemsProjects h2{
-    padding: 5px 5px 5px 5px;
-    background-color: #00ADB5;
-    font-size: 32px;
-    text-align: center;
-    font-weight: 600;
-    color: white;
 }
 
 .gridItemsProjects:hover{
