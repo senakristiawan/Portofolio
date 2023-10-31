@@ -843,6 +843,7 @@ img .logo .github{
     background-image: url("images/Voting.png");
 }
 .gridItemsProjects.ppe{
+    grid-column: auto/span 3;
     background-image: url("images/Electrical.png");
 }
 .gridItemsProjects a{
