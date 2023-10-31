@@ -320,7 +320,7 @@ nav ul li a:hover::after{
 .gridItems:hover.eas .squareScreen{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
-    transition: 1s;
+    transition: 0.5s;
     height: 10px;
 }
 .gridItems.str .squareScreen{
@@ -381,7 +381,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.rel .squareScreen{
     background-image: url("/images/Realibility.png");
@@ -393,7 +393,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.men .squareScreen{
     background-image: url("/images/Mentorship.png");
@@ -405,7 +405,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.respo .squareScreen{
     background-image: url("/images/Responsibility.png");
@@ -417,7 +417,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 0px;
 }
 .gridItems.del .squareScreen{
     background-image: url("/images/Delegation.png");
@@ -429,7 +429,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 30px;
 }
 .gridItems.ada .squareScreen{
     background-image: url("/images/Adaptibility.png");
@@ -441,7 +441,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.confli .squareScreen{
     background-image: url("/images/Conflitct.png");
@@ -453,7 +453,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.agi .squareScreen{
     background-image: url("/images/Agile.png");
@@ -465,7 +465,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 30px;
 }
 .gridItems.per .squareScreen{
     background-image: url("/images/Perseverance.png");
@@ -477,7 +477,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.int .squareScreen{
     background-image: url("/images/Integrity.png");
@@ -489,7 +489,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 0px;
 }
 .gridItems.tea .squareScreen{
     background-image: url("/images/Teamwork.png");
@@ -501,7 +501,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 5px;
 }
 .gridItems.sha .squareScreen{
     background-image: url("/images/Sharing.png");
@@ -525,7 +525,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 15px;
 }
 .gridItems.rig .squareScreen{
     background-image: url("/images/Right\ Communication.png");
@@ -537,7 +537,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.fri .squareScreen{
     background-image: url("/images/Friendlines.png");
@@ -561,7 +561,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 0px;
 }
 .gridItems.respe .squareScreen{
     background-image: url("/images/Respect.png");
@@ -573,7 +573,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 5px;
 }
 .gridItems.per .squareScreen{
     background-image: url("/images/Perseverance.png");
@@ -585,7 +585,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 20px;
 }
 .gridItems.pub .squareScreen{
     background-image: url("/images/Public\ Speaking.png");
@@ -597,7 +597,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 30px;
 }
 .gridItems.non .squareScreen{
     background-image: url("/images/Body\ Language.png");
@@ -609,7 +609,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 25px;
 }
 .gridItems.pro .squareScreen{
     background-image: url("/images/Problem\ Solving.png");
@@ -621,7 +621,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 15px;
 }
 .gridItems.cri .squareScreen{
     background-image: url("/images/Critical\ Thinking.png");
@@ -635,10 +635,6 @@ nav ul li a:hover::after{
     transition: 0.5s;
     height: 10px;
 }
-
-.gridItems.inn{
-    grid-column: auto/span 3;
-}
 .gridItems.inn .squareScreen{
     background-image: url("/images/Innovation.png");
     background-repeat: no-repeat;
@@ -649,7 +645,22 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 25px;
+}
+.gridItems.cre{
+    grid-column: auto /span 2;
+}
+.gridItems.cre .squareScreen{
+    background-image: url("/images/Refactor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gridItems:hover.cre .squareScreen{
+    border-radius: 10px 10px 1px 1px;
+    background-image: none;
+    transition: 0.5s;
+    height: 25px;
 }
 .gridItems.pre .squareScreen{
     background-image: url("/images/Presentation.png");
@@ -661,7 +672,7 @@ nav ul li a:hover::after{
     border-radius: 10px 10px 1px 1px;
     background-image: none;
     transition: 0.5s;
-    height: 10px;
+    height: 25px;
 }
 .experiencesBox{
     width: 630px;
@@ -720,6 +731,11 @@ nav ul li a:hover::after{
     filter: blur(0);
     transform:translateX(0);
 }
+img .logo .github{
+    width: 48px;
+    height: 48px;
+
+}
 .tr:nth-child(1){
     transition-delay: 2s;
 }
@@ -737,6 +753,9 @@ nav ul li a:hover::after{
 }
 .tr:nth-child(6){
     transition-delay: 5s;
+}
+.tr:nth-child(7){
+    transition-delay: 5.5s;
 }
 .button{
     margin-top: 10px;
@@ -822,6 +841,9 @@ nav ul li a:hover::after{
 }
 .gridItemsProjects.cp2{
     background-image: url("images/Voting.png");
+}
+.gridItemsProjects.ppe{
+    background-image: url("images/Electrical.png");
 }
 .gridItemsProjects a{
     width: 100%;
